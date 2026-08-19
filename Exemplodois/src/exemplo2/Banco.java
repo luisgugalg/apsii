@@ -7,20 +7,20 @@ public class Banco {
     private double saldo;
 
     public Banco(String novoNome, String novoCpf, double novoSaldo) {
-//        This faz referencia a um atributo da mesma classe
+//        
         this.nome = novoNome;
         this.cpf = novoCpf;
         this.saldo = novoSaldo;
     }
 
     public Banco() {
-//        This faz referencia a um atributo da mesma classe
+//        
         this.nome = "Sem Nome";
         this.cpf = "Sem Cpf";
         this.saldo = 0;
     }
 
-    //    Estudar get e set para atributos encapsulados
+    //    
     public void setCpf(String cpf) {
         this.cpf = cpf;
     }
