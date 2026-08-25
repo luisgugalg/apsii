@@ -23,7 +23,7 @@ public class DataAniversario {
         this.mes = mes;
     }
 
-    @Override
+
     public boolean equals(Object outraData) {
         if (outraData instanceof DataAniversario) {
             DataAniversario data = (DataAniversario) outraData;
@@ -32,7 +32,7 @@ public class DataAniversario {
         return false;
     }
 
-    @Override
+    
     public String toString() {
         return dia + "/" + mes;
     }
