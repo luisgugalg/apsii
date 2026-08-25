@@ -28,7 +28,6 @@ public class Aniversariante {
         this.dataAniversario = dataAniversario;
     }
 
-    @Override
     public boolean equals(Object outroObjeto) {
         if (outroObjeto instanceof Aniversariante) {
             Aniversariante aniversariante = (Aniversariante) outroObjeto;
