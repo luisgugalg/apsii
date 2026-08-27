@@ -31,7 +31,7 @@ public class Funcionario {
         return salarioBase * 0.08;
     }
 
-    @Override
+    
     public String toString() {
         double liquido = calcularSalario() - calcularDesconto();
 
