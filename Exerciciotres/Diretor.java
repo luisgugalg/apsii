@@ -10,7 +10,7 @@ public class Diretor extends Gerente {
         this.participacaoLucros = participacaoLucros;
     }
 
-    @Override
+    
     public double calcularSalario() {
         return super.calcularSalario() + participacaoLucros;
     }
