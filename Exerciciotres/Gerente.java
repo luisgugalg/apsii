@@ -10,13 +10,13 @@ public class Gerente extends FuncionarioCLT {
         this.percentualBonus = percentualBonus;
     }
 
-    @Override
+    
     public double calcularSalario() {
         double bonus = getSalarioBase() * percentualBonus;
         return super.calcularSalario() + bonus;
     }
 
-    @Override
+    
     public double calcularDesconto() {
         double desconto = super.calcularDesconto();
 
